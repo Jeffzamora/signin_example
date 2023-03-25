@@ -8,6 +8,7 @@ class SignUpApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Inicio de Sesion',
       routes: {
         '/': (context) => const SignUpScreen(),
         '/welcome': (context) => const WelcomeScreen(),
